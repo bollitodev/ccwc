@@ -1,0 +1,15 @@
+[project]
+name = "ccwc"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pip>=26.1.1",
+    "pipx>=1.12.0",
+    "typer>=0.25.1",
+    "typing-extensions>=4.15.0",
+]
+
+[project.scripts]
+ccwc = "ccwc.cli:app"
